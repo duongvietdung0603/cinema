@@ -1,0 +1,25 @@
+.PhimItem {
+    overflow: auto;
+    overflow-x: hidden;
+    height: 600px;
+    .khung {
+        width: 100%;
+        .khung_phim {
+            .khung_phim_anh {
+                height: 100px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .khung_phim_ten {
+                height: 100px;
+                padding-top: 20px;
+                // line-height: 100px;
+            }
+        }
+        .khung_gioChieu {
+            padding: 15px 15px 0 15px;
+        }
+    }
+}

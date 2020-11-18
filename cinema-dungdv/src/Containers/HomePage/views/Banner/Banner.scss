@@ -1,0 +1,67 @@
+.Banner {
+    .carousel .slide {
+        height: 700px;
+        transition: 0.4s;
+        img {
+            height: 700px;
+            transition: 0.4s;
+        }
+
+        .legend {
+            left: 25%;
+            margin-left: 0;
+            width: 50%;
+            background: none;
+            font-size: 25px;
+        }
+    }
+}
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 990px) {
+    .Banner {
+        transition: 0.4s;
+        .carousel .slide {
+            transition: 0.4s;
+            height: 400px;
+            img {
+                transition: 0.4s;
+                height: 400px;
+            }
+        }
+    }
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+    .Banner {
+        transition: 0.4s;
+        .carousel .slide {
+            transition: 0.4s;
+            height: 300px;
+            img {
+                transition: 0.4s;
+                height: 300px;
+            }
+        }
+    }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+    .Banner {
+        transition: 0.4s;
+        .carousel .slide {
+            transition: 0.4s;
+            height: 200px;
+            img {
+                transition: 0.4s;
+                height: 200px;
+            }
+        }
+    }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+}

@@ -1,0 +1,54 @@
+.DatLichPage {
+    // width: 100%;
+    // height: 100%;
+
+    .header {
+        height: 630px;
+
+        position: relative;
+
+        .background_nen {
+            width: 100%;
+            height: 111%;
+            position: absolute;
+            top: 0;
+            background: rgb(0, 0, 0);
+            background: linear-gradient(
+                180deg,
+                rgba(0, 0, 0, 1) 0%,
+                rgba(18, 18, 18, 0.7181257612249825) 27%,
+                rgba(255, 255, 255, 0.139474075831724) 100%
+            );
+        }
+
+        .khung_anh {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            img {
+                width: 100%;
+                height: 111%;
+            }
+        }
+
+        .main {
+            width: 90%;
+            height: 80%;
+            position: absolute;
+            top: 100px;
+            left: 5%;
+
+            .name {
+                font-weight: 700;
+            }
+            h3 {
+                font-weight: 700;
+            }
+
+            .btn {
+                height: 50px;
+            }
+        }
+    }
+}
