@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
 import HomePage from './../Containers/HomePage/index';
 import LichChieuPage from './../Containers/LichChieuPage/index';
@@ -9,11 +9,10 @@ import DatLichPage from './../Containers/DatLichPage/index';
 
 
 function Routers(props) {
-    const [check, setCheck] = useState(false);
     return (
         <Switch>
             <Route exact path="/">
-                {check ? <HomePage /> : <LichChieuPage />}
+                <HomePage />
             </Route>
             <Route exact path="/lich-chieu">
                 <LichChieuPage />
